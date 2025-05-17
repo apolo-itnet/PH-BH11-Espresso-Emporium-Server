@@ -109,7 +109,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello, Welcome to Espresso Emporium Coffee Shop!')
 });
 
 app.listen(port, () => {
